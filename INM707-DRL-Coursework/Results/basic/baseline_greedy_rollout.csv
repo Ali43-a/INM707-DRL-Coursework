@@ -1,0 +1,11 @@
+state,action,next_state,reward,event,done
+"(5, 0, 0)",up,"(4, 0, 0)",-1.0,step,False
+"(4, 0, 0)",right,"(4, 1, 0)",-1.0,step,False
+"(4, 1, 0)",right,"(4, 2, 0)",-1.0,step,False
+"(4, 2, 0)",right,"(4, 3, 0)",-1.0,step,False
+"(4, 3, 0)",up,"(3, 3, 0)",-1.0,step,False
+"(3, 3, 0)",up,"(2, 3, 0)",-1.0,step,False
+"(2, 3, 0)",up,"(1, 3, 0)",-1.0,step,False
+"(1, 3, 0)",right,"(1, 4, 1)",9.0,pickup,False
+"(1, 4, 1)",up,"(0, 4, 1)",-1.0,step,False
+"(0, 4, 1)",right,"(0, 5, 1)",49.0,delivery,True

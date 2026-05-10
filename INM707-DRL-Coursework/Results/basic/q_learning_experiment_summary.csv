@@ -1,0 +1,15 @@
+category,experiment,alpha,gamma,epsilon_decay,mean_training_return_last_100,mean_training_steps_last_100,final_epsilon,greedy_eval_mean_return,greedy_eval_mean_steps,greedy_eval_success_rate
+alpha,alpha_0.1,0.1,0.95,0.995,49.02,10.48,0.05,50.0,10.0,1.0
+alpha,alpha_0.5,0.5,0.95,0.995,49.07,10.47,0.05,50.0,10.0,1.0
+alpha,alpha_0.9,0.9,0.95,0.995,48.73,10.71,0.05,50.0,10.0,1.0
+gamma,gamma_0.50,0.5,0.5,0.995,48.94,10.59,0.05,50.0,10.0,1.0
+gamma,gamma_0.75,0.5,0.75,0.995,48.28,10.65,0.05,50.0,10.0,1.0
+gamma,gamma_0.95,0.5,0.95,0.995,48.65,10.55,0.05,50.0,10.0,1.0
+gamma,gamma_0.99,0.5,0.99,0.995,48.69,10.63,0.05,50.0,10.0,1.0
+epsilon_decay,fast_decay_0.980,0.5,0.95,0.98,48.77,10.59,0.05,50.0,10.0,1.0
+epsilon_decay,medium_decay_0.995,0.5,0.95,0.995,49.03,10.41,0.05,50.0,10.0,1.0
+epsilon_decay,slow_decay_0.999,0.5,0.95,0.999,47.11,11.44,0.135,50.0,10.0,1.0
+reward_design,sparse_reward,0.5,0.95,0.995,50.0,10.6,0.05,50.0,10.0,1.0
+reward_design,baseline_shaped,0.5,0.95,0.995,49.1,10.52,0.05,50.0,10.0,1.0
+reward_design,harsh_penalties,0.5,0.95,0.995,48.28,10.53,0.05,50.0,10.0,1.0
+reward_design,weak_delivery,0.5,0.95,0.995,19.28,10.4,0.05,20.0,10.0,1.0

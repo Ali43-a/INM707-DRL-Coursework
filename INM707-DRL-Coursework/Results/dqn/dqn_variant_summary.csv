@@ -1,0 +1,5 @@
+variant,best_rolling_training_return,best_training_episode,best_eval_mean_return,best_eval_episode,final_training_return,final_rolling_training_return,final_eval_mean_return,first_solved_episode_by_training_return
+baseline_dqn,396.78,514,500.0,500,500.0,237.78,169.8,
+double_dqn,403.58,312,500.0,275,97.0,102.16,93.7,
+double_dueling_dqn,498.48,498,500.0,400,22.0,48.98,15.5,496.0
+dueling_dqn,489.24,414,500.0,300,112.0,100.3,109.2,397.0

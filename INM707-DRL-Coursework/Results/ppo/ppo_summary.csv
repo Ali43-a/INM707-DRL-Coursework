@@ -1,0 +1,2 @@
+best_eval_mean_return,best_eval_update,final_eval_mean_return,final_training_return_last_20,first_solved_update_by_eval,final_entropy,final_clip_fraction,total_environment_steps
+500.0,190,500.0,234.0,190,0.555,0.069,307200
